@@ -1,7 +1,14 @@
 .section {
-  width: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 30vw;
+  padding: 20px;
+
+  border: 2px solid rgb(61, 77, 218);
+  border-radius: 8px;
+  background-color: rgba(201, 187, 209, 0.486);
+}
+
+.section:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .title {
